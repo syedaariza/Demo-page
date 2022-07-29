@@ -5,12 +5,21 @@
 }
 
 body{
-    background-image: url(./img/img\ 1.jpg);
+    background-image: url("./img/img\ 1.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
 }
 
 .div-1{
+    color: white;
+    width: 100%;
+    height: 400px;
+}
+
+h1{
     color: black;
-    
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
